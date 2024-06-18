@@ -162,6 +162,13 @@ margin-bottom: 40px;
 width: calc((100% - 67px) / 2);
 }
 
+.about-svg {
+border-radius: 100%;
+background-color: #fefefe;
+width: 48px;
+height: 48px;
+}
+
 .about-sabtitle {
 font-size: 18px;
 line-height: 1.4;
@@ -217,11 +224,151 @@ margin-bottom: 40px;
 
 .fav-item {
     width: calc((100% - 64px) / 3);
-    border: 16px solid #ffe550;
-    border-radius: 197px;
-    height: 397px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/*---------------------CUSTOMERS---------------------*/
+
+.customers {
+    padding-top: 140px;
+    padding-bottom: 126px;
+    background: #ffe550;
+}
+
+
+.customers-container {
+    padding: 0 32px;
+}
+
+.customers-title {
+font-weight: 700;
+font-size: 42px;
+margin-bottom: 20px;
+}
+
+.customers-text {
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 33px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 139px;
+}
+
+.customers-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    min-width: 501px;
+    border-top-right-radius:30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+    padding: 14px;
+}
+
+.customers-svg {
+    margin-bottom: 29px;
+}
+
+.customers-text-bolt {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 41px;
+    width: 473px;
+}
+
+.customers-block{
+    display: flex;
+    gap: 16px;
+}
+
+.customers-wrap {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #7eb101;
+    
+        
+}
+
+.customers-photo {
+    border-radius: 100%;
+        stroke-width: 2px;
+        stroke: #ffe550;
+}
+
+.customers-name {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        // line-height: 21px; 
+        padding-right: 16px;
+}
+
+.customers-description {
+        font-weight: 400;
+        font-size: 14px;
+    
+        // line-height: 21px; 
+
+}
+
+/*--------------------subscribe-------------------*/
+.subscribe {
+    padding-top: 176px;
+    padding-bottom: 201px;
+}
+
+
+.subscribe-container {
+    display: flex;
+
+}
+
+.subscribe-box{}
+
+.subscribe-title {
+        font-weight: 700;
+        font-size: 42px;
+        // line-height: 50px; 
+        line-height: 1.2;
+        margin-bottom: 20px;
+}
+
+.subscribe-text {
+        font-weight: 400;
+        font-size: 16px;
+        // line-height: 24px; 
+        line-height: 1.5;
+        margin-bottom: 24px;
+}
+
+.subscribe-form {
+
+}
+
+.subscribe-input {
+    border: 0.85px solid #ffe550;
+        border-radius: 30px;
+        padding: 10px;
+        width: 395px;
+padding: 12px 11px 12px;
+        margin-right: 32px;
+}
+
+.subscribe-btn {
+    border-radius: 30px;
+        padding: 10px 20px;
+        width: 103px;
+        height: 42px;
+        background: #bbf330;
+            font-weight: 500;
+            font-size: 13px;
+            // line-height: 19px; 
+            line-height: 1.5;
+border: none;
+}
